@@ -21,7 +21,7 @@ This guide provides simple steps for operators to register with UniFi AVS.
 
 2. Clone the UniFi repository:
    ```
-   git clone https://github.com/PufferFinance/UniFi.git
+   git clone https://github.com/LQGFinance/UniFi.git
    ```
 
 3. Navigate to the cloned directory:

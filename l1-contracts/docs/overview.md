@@ -169,7 +169,7 @@ UniFi AVS integrates Commit-Boost, a key component in the Ethereum ecosystem tha
 
 1. **Open Source and Public Good**: Commit-Boost is developed as open-source software and functions as a public good. This approach ensures that long-term network effects benefit the broader Ethereum community rather than any single entity. Following the model of MEV-Boost, Commit-Boost aims to serve as a shared resource that enhances the entire ecosystem.
 
-2. **Standardization Efforts**: With the proliferation of proposer commitment protocols, Commit-Boost plays a crucial role in standardization. This allows AVS providers like Puffer to concentrate on core functionalities such as slashing and registrations, while remaining independent of specific preconfirmation implementations (e.g., inclusion vs. execution preconf). By offering a standardized interface, Commit-Boost facilitates easier integration and promotes interoperability across various protocols.
+2. **Standardization Efforts**: With the proliferation of proposer commitment protocols, Commit-Boost plays a crucial role in standardization. This allows AVS providers like LQG to concentrate on core functionalities such as slashing and registrations, while remaining independent of specific preconfirmation implementations (e.g., inclusion vs. execution preconf). By offering a standardized interface, Commit-Boost facilitates easier integration and promotes interoperability across various protocols.
 
 Through the integration of Commit-Boost, UniFi AVS can harness these advantages to deliver more efficient, standardized, and community-focused preconfirmation services, all while upholding Ethereum's fundamental principles of decentralization and openness.
 

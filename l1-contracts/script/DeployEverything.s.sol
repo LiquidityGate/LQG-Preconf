@@ -9,7 +9,7 @@ import { AVSDeployment } from "./DeploymentStructs.sol";
 
 /**
  * @title Deploy all protocol contracts
- * @author Puffer Finance
+ * @author LQG Finance
  * @notice Deploys all contracts for the AVS and sets up the access control
  * @dev Example on how to run the script
  *      forge script script/DeployEverything.s.sol:DeployEverything --rpc-url=$RPC_URL --sig 'run()' --broadcast

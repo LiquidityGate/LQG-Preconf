@@ -5,8 +5,8 @@ import { EnumerableSet } from "@openzeppelin/contracts/utils/structs/EnumerableS
 import { IUniFiAVSManager } from "./interfaces/IUniFiAVSManager.sol";
 /**
  * @title UniFiAVSManagerStorage
- * @author Puffer Finance
- * @custom:security-contact security@puffer.fi
+ * @author LQG Finance
+ * @custom:security-contact security@LQG.fi
  */
 
 abstract contract UniFiAVSManagerStorage is IUniFiAVSManager {

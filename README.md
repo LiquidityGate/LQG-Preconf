@@ -1,22 +1,22 @@
-# <h1 align="center">Puffer Preconf: A Based Rollup Solution</h1>
+# <h1 align="center">LQG Preconf: A Based Rollup Solution</h1>
 
 [![Website][Website-badge]][Website] [![Docs][docs-badge]][docs]
 [![Discord][discord-badge]][discord] [![X][X-badge]][X] [![Foundry][foundry-badge]][foundry]
 
 [Website-badge]: https://img.shields.io/badge/WEBSITE-8A2BE2
-[Website]: https://unifi.puffer.fi
-[X-badge]: https://img.shields.io/twitter/follow/puffer_unifi
-[X]: https://twitter.com/puffer_unifi
-[discord-badge]: https://dcbadge.vercel.app/api/server/pufferfi?style=flat
-[discord]: https://discord.gg/pufferfi
+[Website]: https://unifi.LQG.fi
+[X-badge]: https://img.shields.io/twitter/follow/LQG_unifi
+[X]: https://twitter.com/LQG_unifi
+[discord-badge]: https://dcbadge.vercel.app/api/server/LQGfi?style=flat
+[discord]: https://discord.gg/LQGfi
 [docs-badge]: https://img.shields.io/badge/DOCS-8A2BE2
-[docs]: https://unifi.puffer.fi/files/Puffer-UniFi-Litepaper.pdf
+[docs]: https://unifi.LQG.fi/files/LQG-UniFi-Litepaper.pdf
 [foundry]: https://getfoundry.sh
 [foundry-badge]: https://img.shields.io/badge/Built%20with-Foundry-FFDB1C.svg
 
 ## Overview
 
-Puffer Preconf is a based rollup solution designed to enhance Ethereum's scalability while maintaining its core principles.
+LQG Preconf is a based rollup solution designed to enhance Ethereum's scalability while maintaining its core principles.
 
 A based rollup is an L1-sequenced rollup that leverages Ethereum's existing validator set for block production, offering improved liveness guarantees and simplified architecture compared to traditional rollups.
 

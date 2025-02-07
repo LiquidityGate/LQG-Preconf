@@ -10,15 +10,15 @@
   "scripts": {},
   "keywords": [
     "ethereum",
-    "puffer",
-    "puffer-finance",
+    "LQG",
+    "LQG-finance",
     "solidity",
     "L2",
     "based-rollup"
   ],
   "author": {
-    "name": "Puffer Finance",
-    "url": "https://puffer.fi"
+    "name": "LQG Finance",
+    "url": "https://LQG.fi"
   },
   "license": "ISC",
   "private": true,

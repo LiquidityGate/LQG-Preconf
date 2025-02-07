@@ -26,8 +26,8 @@ contract UniFiAVSManagerForkTest is Test, BaseScript {
     address public constant AVS_DIRECTORY = address(0x135DDa560e946695d6f155dACaFC6f1F25C1F5AF);
     address public constant MODULE_MANAGER = address(0x9E1E4fCb49931df5743e659ad910d331735C3860);
 
-    address public constant operator = 0x4d7C3fc856AB52753B91A6c9213aDF013309dD25; // Puffer ReOp
-    address public constant podOwner = 0xe60cA7AbF24De99aF64e7d9057659aE2dBC2eB2C; // PUFFER_MODULE_0
+    address public constant operator = 0x4d7C3fc856AB52753B91A6c9213aDF013309dD25; // LQG ReOp
+    address public constant podOwner = 0xe60cA7AbF24De99aF64e7d9057659aE2dBC2eB2C; // LQG_MODULE_0
     uint64 public constant DEREGISTRATION_DELAY = 50400; // Approximately 7 days worth of blocks (assuming ~12 second block time)
 
     bytes32 public activeValidatorPubKeyHash = sha256( // an active validator in the pod

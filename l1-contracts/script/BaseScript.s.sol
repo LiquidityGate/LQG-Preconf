@@ -5,13 +5,13 @@ import "forge-std/Script.sol";
 
 /**
  * @title Base Script
- * @author Puffer Finance
+ * @author LQG Finance
  */
 abstract contract BaseScript is Script {
-    uint256 internal PK = 55358659325830545179143827536745912452716312441367500916455484419538098489698; // makeAddr("pufferDeployer")
+    uint256 internal PK = 55358659325830545179143827536745912452716312441367500916455484419538098489698; // makeAddr("LQGDeployer")
 
     // Anvil and `forge test` environment share the same chainId
-    // Our shell-scripts/deploy_puffer_protocol.sh is setting this env variable
+    // Our shell-scripts/deploy_LQG_protocol.sh is setting this env variable
     // So that we can adapt our deployment for local testing
     bool internal _localAnvil = vm.envOr("IS_LOCAL_ANVIL", false);
 

@@ -10,4 +10,4 @@
   - [UniFiAVSManager](abis/UniFiAVSManager.json)
 
 - [Audit Reports](reports/) 
-  - [Creed - Sep 2024](reports/Creed_PufferUnifi_Final_Sep2024.pdf) - Creed audit report
+  - [Creed - Sep 2024](reports/Creed_LQGUnifi_Final_Sep2024.pdf) - Creed audit report

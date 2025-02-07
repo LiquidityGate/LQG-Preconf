@@ -9,7 +9,7 @@ import { console } from "forge-std/console.sol";
 /**
  * @notice Contains the addresses of the contracts that are already deployed
  *
- * https://github.com/PufferFinance/Deployments-and-ACL?tab=readme-ov-file
+ * https://github.com/LQGFinance/Deployments-and-ACL?tab=readme-ov-file
  */
 abstract contract DeployerHelper is BaseScript {
     // Chain IDs
@@ -118,7 +118,7 @@ abstract contract DeployerHelper is BaseScript {
         revert("GuardianModule not available for this chain");
     }
 
-    function _getPufferModuleBeacon() internal view returns (address) {
+    function _getLQGModuleBeacon() internal view returns (address) {
         if (block.chainid == mainnet) {
             // https://etherscan.io/address/0xdd38A5a7789C74fc7F64556fc772343658EEBb04
             return 0xdd38A5a7789C74fc7F64556fc772343658EEBb04;
@@ -127,7 +127,7 @@ abstract contract DeployerHelper is BaseScript {
             return 0x4B0542470935ed4b085C3AD1983E85f5623ABf89;
         }
 
-        revert("PufferModuleBeacon not available for this chain");
+        revert("LQGModuleBeacon not available for this chain");
     }
 
     function _getEigenPodManager() internal view returns (address) {
@@ -225,7 +225,7 @@ abstract contract DeployerHelper is BaseScript {
         revert("strategy manager not available for this chain");
     }
 
-    function _getPufferOracle() internal view returns (address) {
+    function _getLQGOracle() internal view returns (address) {
         if (block.chainid == mainnet) {
             // https://etherscan.io/address/0x0BE2aE0edbeBb517541DF217EF0074FC9a9e994f
             return 0x0BE2aE0edbeBb517541DF217EF0074FC9a9e994f;
@@ -234,7 +234,7 @@ abstract contract DeployerHelper is BaseScript {
             return 0x8e043ed3F06720615685D4978770Cd5C8fe90fe3;
         }
 
-        revert("puffer oracle not available for this chain");
+        revert("LQG oracle not available for this chain");
     }
 
     function _getEigenDelegationManager() internal view returns (address) {
@@ -342,7 +342,7 @@ abstract contract DeployerHelper is BaseScript {
         revert("AVSDirectory not available for this chain");
     }
 
-    function _getPufferVault() internal view returns (address) {
+    function _getLQGVault() internal view returns (address) {
         if (block.chainid == mainnet) {
             // https://etherscan.io/address/0xD9A442856C234a39a81a089C06451EBAa4306a72
             return 0xD9A442856C234a39a81a089C06451EBAa4306a72;
@@ -350,15 +350,15 @@ abstract contract DeployerHelper is BaseScript {
             // https://holesky.etherscan.io/address/0x9196830bB4c05504E0A8475A0aD566AceEB6BeC9
             return 0x9196830bB4c05504E0A8475A0aD566AceEB6BeC9;
         } else if (block.chainid == sepolia) {
-            // PufferVaultMock
+            // LQGVaultMock
             // https://sepolia.etherscan.io/address/0xd85D701A660a61D9737D05397612EF08be2cE62D
             return 0xd85D701A660a61D9737D05397612EF08be2cE62D;
         }
 
-        revert("PufferVault not available for this chain");
+        revert("LQGVault not available for this chain");
     }
 
-    function _getPufferModuleManager() internal view returns (address) {
+    function _getLQGModuleManager() internal view returns (address) {
         if (block.chainid == mainnet) {
             // https://etherscan.io/address/0x9E1E4fCb49931df5743e659ad910d331735C3860
             return 0x9E1E4fCb49931df5743e659ad910d331735C3860;
@@ -367,7 +367,7 @@ abstract contract DeployerHelper is BaseScript {
             return 0x20377c306451140119C9967Ba6D0158a05b4eD07;
         }
 
-        revert("PufferModuleManager not available for this chain");
+        revert("LQGModuleManager not available for this chain");
     }
 
     function _getValidatorTicket() internal view returns (address) {
@@ -382,7 +382,7 @@ abstract contract DeployerHelper is BaseScript {
         revert("ValidatorTicket not available for this chain");
     }
 
-    function _getPufferProtocol() internal view returns (address) {
+    function _getLQGProtocol() internal view returns (address) {
         if (block.chainid == mainnet) {
             // https://etherscan.io/address/0xf7b6B32492c2e13799D921E84202450131bd238B
             return 0xf7b6B32492c2e13799D921E84202450131bd238B;
@@ -391,7 +391,7 @@ abstract contract DeployerHelper is BaseScript {
             return 0xE00c79408B9De5BaD2FDEbB1688997a68eC988CD;
         }
 
-        revert("PufferProtocol not available for this chain");
+        revert("LQGProtocol not available for this chain");
     }
 
     function _getXPufETH() internal view returns (address) {
